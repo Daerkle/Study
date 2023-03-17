@@ -1,0 +1,48 @@
+{
+	"name": "chart-study",
+	"version": "0.1.0-alpha",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@codemirror/lang-javascript": "^6.1.4",
+		"@codemirror/theme-one-dark": "^6.1.1",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.8.3",
+		"@typescript-eslint/eslint-plugin": "^5.53.0",
+		"@typescript-eslint/parser": "^5.53.0",
+		"autoprefixer": "^10.4.13",
+		"base-report-util": "^0.0.14",
+		"codemirror": "^6.0.1",
+		"eslint": "^8.34.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.21",
+		"prettier": "^2.8.4",
+		"prettier-plugin-svelte": "^2.9.0",
+		"prettier-plugin-tailwindcss": "^0.2.3",
+		"svelte": "^3.55.1",
+		"svelte-check": "^3.0.4",
+		"svelte-codemirror-editor": "^1.1.0",
+		"svelte-loading-spinners": "^0.3.4",
+		"svelte-preprocess": "^4.10.7",
+		"svelte-splitpanes": "^0.7.12",
+		"svelte-use-click-outside": "^1.0.0",
+		"tailwindcss": "^3.2.7",
+		"tslib": "^2.5.0",
+		"typescript": "^4.9.5",
+		"vite": "^4.1.4",
+		"zod": "^3.20.6"
+	},
+	"dependencies": {
+		"klinecharts": "^8.6.3"
+	},
+	"type": "module"
+}
